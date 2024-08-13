@@ -5,7 +5,7 @@
  */
 
 :root {
-	--accent: #2337ff;
+	--accent: white;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
@@ -74,6 +74,7 @@ b {
 }
 a {
 	color: var(--accent);
+	font-weight: bold;
 }
 a:hover {
 	color: var(--accent);
