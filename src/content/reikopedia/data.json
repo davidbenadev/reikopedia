@@ -1,0 +1,83 @@
+ {
+    "es" : [
+        {
+            "title" : "Reiko viejita beta",
+            "image" : "reikoBeta.png",
+            "description" : "Esta es una descripción en español",
+            "key": "reikoBeta"
+        },
+        {
+            "title" : "Reiko tiesa 1.0",
+            "image" : "reikoV1.png",
+            "description" : "Esta es una descripción en español",
+            "key": "reikoV1"
+        },
+        {
+            "title" : "Reiko tiesa 1.0 png 1 full hd (no robar)",
+            "image" : "reikoV1FullBody.png",
+            "description" : "Esta es una descripción en español",
+            "key": "reikoV1FullBody"
+        },
+        {
+            "title" : "Reiko tiesa 1.0 png 2 full hd (no robar)",
+            "image" : "reikoV1FullBodyNoHat.png",
+            "description" : "Esta es una descripción en español",
+            "key": "reikoV1FullBodyNoHat"
+        },
+        {
+            "title" : "Reiko Pijama",
+            "image" : "reikoV2Pijama.png",
+            "description" : "Esta es una descripción en español",
+            "key": "reikoV2Pijama"
+        },
+        {
+            "title" : "Reiko 2.0 en proceso...",
+            "image" : "reikoV2Boceto.jpg",
+            "description" : "Esta es una descripción en español",
+            "key": "reikoV2Boceto"
+        },
+        {
+            "title" : "Reiko 2.0 en proceso...",
+            "image" : "reikoV2Test.png",
+            "description" : "Esta es una descripción en español",
+            "key": "reikoV2Test"
+        }
+    ],
+    "en" : [
+        {
+            "title" : "Reiko old beta",
+            "image" : "reikoBeta.png",
+            "description" : "This is a description in english"
+        },
+        {
+            "title" : "Reiko 1.0",
+            "image" : "reikoV1.png",
+            "description" : "This is a description in english"
+        },
+        {
+            "title" : "Reiko 1.0 png 1 full hd (don't steal)",
+            "image" : "reikoV1FullBody.png",
+            "description" : "This is a description in english"
+        },
+        {
+            "title" : "Reiko 1.0 png 2 full hd (don't steal)",
+            "image" : "reikoV1FullBodyNoHat.png",
+            "description" : "This is a description in english"
+        },
+        {
+            "title" : "Reiko Pajama",
+            "image" : "reikoV2Pijama.png",
+            "description" : "This is a description in english"
+        },
+        {
+            "title" : "Reiko 2.0 in progress...",
+            "image" : "reikoV2Boceto.png",
+            "description" : "This is a description in english"
+        },
+        {
+            "title" : "Reiko 2.0 in progress...",
+            "image" : "reikoV2Test.png",
+            "description" : "This is a description in english"
+        }
+    ]
+}

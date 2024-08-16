@@ -1,0 +1,22 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import Gallery from '../components/Gallery.astro'
+const SITE_TITLE = 'My Astro Site'
+const SITE_DESCRIPTION = 'This is my Astro site'
+---
+
+<html>
+    <head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <title>My Astro Site</title>
+    </head>
+    <body>
+        <Header />
+        <main>
+            <Gallery />
+        </main>
+        <Footer />
+    </body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "es" : [
+        {
+            "author" : "TheBless",
+            "image" : "./images/TheBless.png",
+            "description" : "Arte hecho por TheBless"
+        }
+    ], 
+
+    "en" : [
+        {
+            "author" : "TheBless",
+            "image" : "./images/TheBless.png",
+            "description" : "Art made by TheBless"
+        }
+    ]
+}
