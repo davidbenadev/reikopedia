@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function Modal({ data }) {
+export default function Modal({ data,  folder = 'reikopedia' }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -22,11 +22,11 @@ export default function Modal({ data }) {
 
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
             {data.map((item) => (
-              <a href="#" className="group" onClick={(e) => { e.preventDefault(); openModal(`reikopedia/${item.image}`); }} key={item.title}>
+              <a href="#" className="group" onClick={(e) => { e.preventDefault(); openModal(`${folder}/${item.image}`); }} key={item.title}>
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg sm:aspect-h-3 sm:aspect-w-2">
-                  <img src={`reikopedia/${item.image}`} alt={item.title} className="h-64 w-full object-contain object-center group-hover:scale-110 duration-0 hover:duration-300" />
+                  <img src={`${folder}/${item.image}`} alt={item.title} className="h-64 w-full object-contain object-center group-hover:scale-110 duration-0 hover:duration-300" />
                 </div>
-                <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
+                <div className="mt-4 flex items-center justify-center text-base font-medium text-gray-900 text-center">
                   <h3>{item.title}</h3>
                 </div>
               </a>

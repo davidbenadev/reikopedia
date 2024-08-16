@@ -2,7 +2,10 @@
 import BaseHead from '../components/BaseHead.astro'
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
-import Gallery from '../components/Gallery.astro'
+import Modal from '../components/Modal.jsx'
+import data from '../content/halloffame/data.json';
+
+const { es } = data;
 const SITE_TITLE = 'My Astro Site'
 const SITE_DESCRIPTION = 'This is my Astro site'
 ---
@@ -10,12 +13,11 @@ const SITE_DESCRIPTION = 'This is my Astro site'
 <html>
     <head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-        <title>My Astro Site</title>
     </head>
     <body>
         <Header />
         <main>
-            <Gallery />
+            <Modal client:load data={es} folder={"halloffame"} />
         </main>
         <Footer />
     </body>

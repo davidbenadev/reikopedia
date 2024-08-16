@@ -1,17 +1,19 @@
 {
     "es" : [
         {
-            "author" : "TheBless",
-            "image" : "./images/TheBless.png",
-            "description" : "Arte hecho por TheBless"
+            "title" : "Hecho por Vidae",
+            "image" : "reikoPaintHOF.png",
+            "description" : "Arte hecho por Vidae",
+            "key": "reikoPaintHOFVidae"
         }
     ], 
 
     "en" : [
         {
-            "author" : "TheBless",
-            "image" : "./images/TheBless.png",
-            "description" : "Art made by TheBless"
+            "title" : "Made by Vidae",
+            "image" : "reikoPaintHOF.png",
+            "description" : "Art made by Vidae",
+            "key": "reikoPaintHOFVidae"
         }
     ]
 }
